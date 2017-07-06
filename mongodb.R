@@ -29,6 +29,12 @@ my_collection$count()
 
 
 #performing a Query and Retriving Data
+my_collection$iterate()$one()
+
+#How mamy distinct Case Status we have
+length(my_collection$distinct("CASE_STATUS"))
+
+length(my_collection$distinct("WORKSITE"))
 
 
 
