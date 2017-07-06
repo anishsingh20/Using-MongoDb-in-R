@@ -1,0 +1,19 @@
+---
+title: "Using MongoDb in R"
+output: html_notebook
+---
+
+
+## A Step by Step tutorial on how to Use MongoDb in R
+
+
+MongoDb is a fast and scalable NoSQL database Management tool which stores data in a Key-value JSON like format called Documents.The major advantage of MongoDb is that it is fast and scalable as well as does not requires any database schema to be defined earlier unlike SQL languages.It works quiet well on analyzing large data sets too.
+
+
+Packages required to run Mongodb inside R
+
+```{r}
+library(mongolite) # to run MongoDB queries directly in R
+
+```
+
