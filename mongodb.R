@@ -19,4 +19,16 @@ names(h1b)
 
 #Creating a Mongodb collection which is a collection of JSON documents in key-value pairs
 
+my_collection<-mongo(collection = "h1b", db="VisaDb")
+
+#inserting data to the database VisaDb
+my_collection$insert(h1b)
+
+#Counting the no of obsv in dataset
+my_collection$count()
+
+
+#performing a Query and Retriving Data
+
+
 
